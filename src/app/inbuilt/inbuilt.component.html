@@ -1,0 +1,72 @@
+<!--UPPER CASE-->
+<h1>{{text | uppercase}}</h1>  
+<h1>{{"welcome" | uppercase}}</h1> 
+
+<!--lower case-->
+
+<h1>{{lower | lowercase}}</h1>
+
+<!--titlecase-->
+
+<h1>{{text | titlecase}}</h1> 
+
+<!--Date-->
+<label>date</label>
+<h1>{{today | date}}</h1>
+<label>full</label>
+<h1>{{today | date:'full'}}</h1>
+<label>short</label>
+<h1>{{today | date:'short'}}</h1>
+<label>medium</label>
+<h1>{{today | date:'medium'}}</h1>
+<label>long</label>
+<h1>{{today | date:'long'}}</h1>
+<label>shortDate</label>
+<h1>{{today | date:'shortDate'}}</h1>
+<label>mediumDate</label>
+<h1>{{today | date:'mediumDate'}}</h1>
+
+<label>longDate</label>
+<h1>{{today | date:'longDate'}}</h1>
+
+<label>fullDate</label>
+<h1>{{today | date:'fullDate'}}</h1>
+
+<label>shortTime</label>
+<h1>{{today | date:'shortTime'}}</h1>
+
+<label>mediumTime</label>
+<h1>{{today | date:'mediumTime'}}</h1>
+
+<label>longTime</label>
+<h1>{{today | date:'longTime'}}</h1>
+
+<label>fullTime</label>
+<h1>{{today | date:'fullTime'}}</h1>
+
+<label>format</label>
+<h1>{{today | date:'dd mm,yyyy'}}</h1>
+<h1>{{today | date:'yyyy-mm-dd'}}</h1>
+
+<h1>{{today | date:'mm:ss'}}</h1>
+<h1>{{today | date:'ss:mm'}}</h1>
+
+<!--currency-->
+<p>currency pipe</p>
+<h1>{{a | currency}}</h1>
+<h1>{{a | currency:'CAD'}}</h1>
+<h1>{{a | currency:'CAD':'code'}}</h1>
+<h1>{{a | currency:'CAD':'symbol':'4.2-2'}}</h1>
+
+<!--decimal-->
+<p>decimal pipe</p>
+<h1>{{'3.6'}}={{3.6 | number:'1.0-0'}}</h1>
+<h1>{{a | number}}</h1>
+<h1>{{a | number:'1.0-0'}}</h1>
+
+<!--percentage-->
+<p>percent pipe</p>
+<h1>{{a | percent}}</h1>
+<h1>{{a | percent:'4.1-1'}}</h1>
+
+
